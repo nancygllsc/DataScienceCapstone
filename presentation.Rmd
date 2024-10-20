@@ -1,8 +1,16 @@
 ---
-title: "DataScienceCapstone-Presentation"
-author: "Nancy"
-date: "`r Sys.Date()`"
-output: html_document
+title       : Presentation Medicare Post Acute Care.
+output     : ioslides_presentation
+
+subtitle    : 
+author      : 
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : [bootstrap]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
 ---
 
 ```{r setup, include=FALSE}
